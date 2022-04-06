@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<view wx:if="{{!latitude}}" class="no-location">
+  <view class="inner-btn" bindtap="getUserLocation">
+    打卡
+  </view>
+</view>
+<view class="map_container" wx:if="{{showMap}}">
+  <!--定义页面结构，可以使用地图组件也能使用其他组件 -->
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" markers="{{markers}}"></map>
+</view>
+<view class="map_text" wx:if="{{showMap}}">
+    <text class="h1">{{textData}}</text>
+  </view>

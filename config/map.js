@@ -1,0 +1,7 @@
+const GD_MAP_KEY = '3c56c480cfa1293c94d6774c2a3552c7';
+const TX_MAP_KEY = '7YKBZ-3SU6P-MIYD7-L2BSY-NRKTH-DDBSY';
+
+module.exports = {
+  GD_MAP_KEY,
+  TX_MAP_KEY
+}

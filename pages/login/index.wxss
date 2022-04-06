@@ -1,0 +1,16 @@
+.container .login-title {
+  font-size: 26px;
+}
+
+.container .cell-group {
+  margin-top: 10px;
+}
+
+.container .cell-group .field-input {
+  /* margin: 30px 0; */
+  height: 50px;
+}
+.container .login-btn {
+  width: 200px;
+  margin-top: 10px;
+}
